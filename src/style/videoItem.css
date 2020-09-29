@@ -8,7 +8,6 @@
     color: var(--color-text-title);
     cursor: pointer;
     display: flex;
-    justify-content: end ;
     align-items : initial;
     flex-direction : column;
     border-radius: 5px;
@@ -19,10 +18,15 @@
     width: 300px;
     height: 280px;
     border: none;
-    margin: 0 auto;
+    padding-left: 20px;
+    border-radius: 20px;
 }
 .title {
     font-size: 18px;
     font-weight: 500;
-    margin-top: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
 }

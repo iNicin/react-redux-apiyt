@@ -5,8 +5,11 @@ import '../style/videoDetail.css'
 
 const VideoDetail = ({video}) => {
     if (!video) {
-        return <div></div>;
-    }
+        return <div className="welcome">
+            <h1>BEM VINDO AO SELECTTUBE</h1>
+            <p> Pesquise seu video preferido e Select! :D </p>
+        </div>;
+    };
 
     const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
     return (

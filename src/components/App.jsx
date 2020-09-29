@@ -29,19 +29,18 @@ class App extends React.Component {
 
     render() {
         return (
-            <div className="">
-                <SearchBar handleFormSubmit={this.handleSubmit}/>
-                <div >
-                    <div >
-                        <div>
-                            <VideoDetail video={this.state.selectedVideo}/>
-                        </div>
-                        <div>
-                            <VideoList handleVideoSelect={this.handleVideoSelect} videos={this.state.videos}/>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <body>
+                <div className="main-app">
+                    <SearchBar handleFormSubmit={this.handleSubmit}/>
+                </div>   
+               
+               
+                <div>
+                    <VideoDetail video={this.state.selectedVideo}/>
+                    <VideoList handleVideoSelect={this.handleVideoSelect} videos={this.state.videos}/>
+                </div>         
+                
+            </body>
         );
     };
 };

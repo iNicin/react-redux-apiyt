@@ -1,21 +1,17 @@
 
 .main-detail {
-    height: 0;
-    width: 0;
+    height: 0px;
+    width: 0px;
 }
 .main-detail iframe {
     padding-top: 50px;
     display: block;
     width: 900px;
     height: 500px;
-    left: 0;
-    top: 0;
-    
 }
 
 .video-detail-main {
     width: 300px;
-    height: 400px;
     padding-top: 10%;
     line-height: 1.5;
 }
@@ -27,7 +23,22 @@
     margin: 0 auto;
 }
 
+.description {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
 .title-video {
     font-size: 20px;
-    font-weight: 500;
+    color: var(--color-title-in-primary);
+    
+}
+
+.welcome {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 50px;
+color: var(--color-line-in-white);
 }

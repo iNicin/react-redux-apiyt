@@ -26,7 +26,11 @@ class Searchbar extends React.Component {
                     <div className="search-input">
                         <label htmlFor="video-search">SelectTube</label>
                         <input onChange={this.handleChange} name='video-search' placeholder= 'Search' type="text" value={this.state.term}/>
-                        <button type="submit" role="img" path="/search">&#128269;Search</button>
+                          <button type="submit" id="button-search">
+                          <span aria-hidden="Lupa" role="img">🔍</span>
+                             Search
+                          </button>
+                        
                     </div> 
                 </form>
             </div>
