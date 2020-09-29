@@ -1,0 +1,33 @@
+
+.main-detail {
+    height: 0;
+    width: 0;
+}
+.main-detail iframe {
+    padding-top: 50px;
+    display: block;
+    width: 900px;
+    height: 500px;
+    left: 0;
+    top: 0;
+    
+}
+
+.video-detail-main {
+    width: 300px;
+    height: 400px;
+    padding-top: 10%;
+    line-height: 1.5;
+}
+
+.video-detail-main iframe {
+    width: 900px;
+    height: 600px;
+    border: none;
+    margin: 0 auto;
+}
+
+.title-video {
+    font-size: 20px;
+    font-weight: 500;
+}

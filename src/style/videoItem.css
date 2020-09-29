@@ -1,0 +1,28 @@
+
+.main-video-item {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    background-color: var(--color-title-in-primary);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-text-title);
+    cursor: pointer;
+    display: flex;
+    justify-content: end ;
+    align-items : initial;
+    flex-direction : column;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+ iframe {
+    width: 300px;
+    height: 280px;
+    border: none;
+    margin: 0 auto;
+}
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+}
