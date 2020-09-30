@@ -1,19 +1,10 @@
-
 .main-detail {
-    height: 0px;
-    width: 0px;
+    padding-top: 3%;
+    align-items: center;
 }
-.main-detail iframe {
-    padding-top: 50px;
-    display: block;
-    width: 900px;
-    height: 500px;
-}
-
 .video-detail-main {
-    width: 300px;
-    padding-top: 10%;
-    line-height: 1.5;
+    display: flex;
+    justify-content: center;
 }
 
 .video-detail-main iframe {
@@ -24,7 +15,6 @@
 }
 
 .description {
-    width: 900px;
     display: flex;
     justify-content: center;
     padding-top: 20px;

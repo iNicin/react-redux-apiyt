@@ -29,7 +29,8 @@ class App extends React.Component {
 
     render() {
         return (
-            <body>
+         <body>
+            <div>    
                 <div className="main-app">
                     <SearchBar handleFormSubmit={this.handleSubmit}/>
                 </div>   
@@ -39,8 +40,8 @@ class App extends React.Component {
                     <VideoDetail video={this.state.selectedVideo}/>
                     <VideoList handleVideoSelect={this.handleVideoSelect} videos={this.state.videos}/>
                 </div>         
-                
-            </body>
+            </div>    
+         </body>
         );
     };
 };
